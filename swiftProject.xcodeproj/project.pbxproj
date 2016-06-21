@@ -12,6 +12,7 @@
 		8BC4CF531D13A68D00A91617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CF511D13A68D00A91617 /* Main.storyboard */; };
 		8BC4CF551D13A68D00A91617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CF541D13A68D00A91617 /* Assets.xcassets */; };
 		8BC4CF581D13A68D00A91617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC4CF561D13A68D00A91617 /* LaunchScreen.storyboard */; };
+		8BC4CF601D13B85800A91617 /* CommissionerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC4CF5F1D13B85800A91617 /* CommissionerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8BC4CF541D13A68D00A91617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC4CF571D13A68D00A91617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC4CF591D13A68D00A91617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC4CF5F1D13B85800A91617 /* CommissionerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommissionerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8BC4CF4D1D13A68D00A91617 /* AppDelegate.swift */,
 				8BC4CF4F1D13A68D00A91617 /* ViewController.swift */,
 				8BC4CF511D13A68D00A91617 /* Main.storyboard */,
+				8BC4CF5F1D13B85800A91617 /* CommissionerViewController.swift */,
 				8BC4CF541D13A68D00A91617 /* Assets.xcassets */,
 				8BC4CF561D13A68D00A91617 /* LaunchScreen.storyboard */,
 				8BC4CF591D13A68D00A91617 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				8BC4CF501D13A68D00A91617 /* ViewController.swift in Sources */,
 				8BC4CF4E1D13A68D00A91617 /* AppDelegate.swift in Sources */,
+				8BC4CF601D13B85800A91617 /* CommissionerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
