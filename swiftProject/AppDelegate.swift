@@ -21,8 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         for vc in tabBarVC!.viewControllers! {
             vc.tabBarItem.selectedImage = vc.tabBarItem.selectedImage?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         }
-        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.init(colorLiteralRed: 147.0/255.0, green: 147.0/255.0, blue: 147.0/255.0, alpha: 1.0) , NSFontAttributeName : UIFont.systemFontOfSize(12.0)] forState: UIControlStateNormal)
+        let titleDicNormal = [NSForegroundColorAttributeName: UIColor.init(colorLiteralRed: 147.0/255.0, green: 147.0/255.0, blue: 147.0/255.0, alpha: 1.0) , NSFontAttributeName : UIFont.systemFontOfSize(12.0)]
+        UITabBarItem.appearance().setTitleTextAttributes(titleDicNormal, forState: UIControlState.Normal)
         
+        let titleDicSelected = [NSForegroundColorAttributeName: UIColor.init(colorLiteralRed: 255/255.0, green: 80/255.0, blue: 0/255.0, alpha: 1.0) , NSFontAttributeName : UIFont.systemFontOfSize(12.0)]
+        UITabBarItem.appearance().setTitleTextAttributes(titleDicSelected, forState: UIControlState.Selected)
         
         return true
     }

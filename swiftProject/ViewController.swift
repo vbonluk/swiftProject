@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let scrollView = UIScrollView.init()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,16 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        
+    }
+    
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        if scrollView.contentSize.height <= UIScreen.mainScreen().bounds.size.height - 64 {
+            scrollView.contentSize = CGSize.init(width: UIScreen.mainScreen().bounds.width, height: UIScreen.mainScreen().bounds.height - 64 + 1)
+        }
+        
+//        let navHeight = self.navigationController?.navigationBar.frame.size.height
         
     }
 
